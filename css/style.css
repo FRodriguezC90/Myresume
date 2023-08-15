@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    ;
+}
+
+body{ background: linear-gradient(rgb(218, 230, 235), rgb(100, 55, 185));
+    }
+   
+    main{
+        min-height:calc(100vh - 60px);}
+
+nav{ background-image: url(/img/blue.jpg);
+
+}
+
+h1{
+  text-shadow: 0 6px 6px rgba(81, 152, 163, 0.544);
+}
+#about{
+  text-align: center justify;
+  margin-left: 100px;
+  font-size: large;
+}
+.banner{
+    display: flex;
+    padding: 5vh 0 5vh 0;
+    align-items:center;
+    text-align: start;
+   
+}
+.listaComp{
+  padding: 10px 0 10px 0;
+}
+.lista li{
+    border: 1px solid rgba(0, 0, 0, 0.332) ;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.099);
+    
+}
+ul li img{padding: 0 1vh 0 1vh;}
+
+.texto{
+    padding: 0 25px 0 25px;
+}
+.cajitaDeContacto{
+    display: flex;
+     justify-content:space-between;
+    padding: 15px;
+    
+}
+.cajitaDeContacto img:hover{
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.cajitaDeContacto p{
+   
+    padding: 15px 0 0 0;
+}
+#contact{
+    display: flex;
+    
+}
+  
+
+  footer{
+    height: 50px;
+   
+  }
+  
+
+
+  @media screen and (max-width: 767px){
+   
+    .banner{
+        padding: 15px 0 0 0;
+        display: block;
+      text-align: center;
+    }
+    .listaComp p{
+        text-align: center;
+    }
+    .listaComp{
+      padding: 10px 0 10px 0;
+    }
+    .cajitaDeContacto{
+      display:block;  
+      text-align: center;
+     
+    }
+    div{padding:0 0 20px 0 ;}
+   h1{
+    font-size: large;
+   }
+
+ }
+
+ @media all and (min-width:768px) and (max-width:991px){
+  
+   
+    main{
+    width:100%;
+      padding: 0;
+      margin: 0;
+    }
+  div{ padding: 0px 0 25px 0;}
+    .banner{
+        width: 100%;
+        display: block;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 0px;
+    }
+    .listaComp{
+        text-align: center;
+        padding: 25px 0 20px 0;
+    }
+    
+    .cajitaDeContacto{
+        padding: 20px 0 0 0;
+    }
+  
+ }
