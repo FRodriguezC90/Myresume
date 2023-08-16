@@ -10,6 +10,7 @@ body{ background: linear-gradient(rgb(218, 230, 235), rgb(100, 55, 185));
    
     main{
         min-height:calc(100vh - 60px);}
+      
 
 h1{
   text-shadow: 0 6px 6px rgba(81, 152, 163, 0.544);
@@ -72,7 +73,7 @@ ul li img{padding: 0 1vh 0 1vh;}
     .banner{
         padding: 15px 0 0 0;
         display: block;
-      text-align: center;
+        text-align: center
     }
     .listaComp p{
         text-align: center;
@@ -92,29 +93,13 @@ ul li img{padding: 0 1vh 0 1vh;}
 
  }
 
- @media all and (min-width:768px) and (max-width:991px){
-  
-   
-    main{
-    width:100%;
-      padding: 0;
-      margin: 0;
-    }
-  div{ padding: 0px 0 25px 0;}
-    .banner{
-        width: 100%;
-        display: block;
-      text-align: center;
-      padding-top: 25px;
-      padding-bottom: 0px;
-    }
-    .listaComp{
-        text-align: center;
-        padding: 25px 0 20px 0;
-    }
-    
-    .cajitaDeContacto{
-        padding: 20px 0 0 0;
-    }
-  
- }
+ @media all and (min-width:390px) and (max-width:991px){
+
+body{
+      width:100%;
+}
+#about{
+  width: 100px;
+  text-align: center;
+}
+}

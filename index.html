@@ -9,8 +9,12 @@
     <meta name="keywords" content="porfolio,franciscoRodriguez, programador, fullstack">
     <meta name="author" content="Francisco Rodriguez Coloma">
     <title>Portfolio Francisco Rodriguez</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/portfolio.svg">
 </head>
@@ -28,62 +32,50 @@
             <hr>
         </nav>
     </header>
+    <div class="container">
+
+    </div>
+    
     <main>
-        <div class="banner container">
-            <div>
-                <img src="./img/foto.jpg" class="rounded border border-dark border-3 mt-5 id="inicio" width="300px" height="auto"
-                    alt="foto">
-            </div>
-            <article id="about">
-                <h1 class="text-center">Sobre mi</h1>
-                <hr></hr>
-
-                <p>
-                    Soy un apasionado profesional de la informática con un firme compromiso hacia alcanzar los objetivos que sean requeridos por el equipo de trabajo y las expectativas del cliente.
-                    Mi enfoque de trabajo se caracteriza por mi habilidad para abordar desafíos técnicos de manera creativa y eficiente, mientras mantengo un enfoque orientado a resultados.
-                    Poseo formación en desarrollo de software y conocimiento de lenguajes de programación, disfruto enfrentando proyectos complejos y colaborando en equipos multidisciplinarios.
-                </p>    
-                    Lo que me distingue es mi capacidad liderazgo y trabajo en equipo con miembros técnicos como no técnicos, esto justificado en mi amplia experiencia liderando equipos de trabajos amplios, incluso ante situaciones de estrés y recursos limitados para alcanzar los objetivos.
-                <hr>    
-                    <h5>En resumen, soy un profesional de la informática dedicado, orientado a resultados y apasionado por encontrar soluciones tecnológicas sólidas. Estoy entusiasmado por la oportunidad de llevar mi experiencia y pasión a un nuevo desafío y seguir creciendo en el mundo de la programación."</h5>
-
-                
-
-
-            </article>
-
-        </div>
-
-        <div class=" container">
+        <div class="container">
             <div class="row">
-            <section class="listaComp">
-                <h1 class="h3 pb-md-4">Estudios y Formación</h1>
-                <ul class="lista list-group">
-                    <li><img src="./img/icon/html5.png" alt="HTML5"> Analista Programador, INACAP - Egresado 2023</li>
-                    <li><img src="./img/icon/html5.png" alt="HTML5"> Cybersecurty Essentials, Cisco - 2022</li>
-                </ul>
-            </section>
-            <section class="listaComp">
-                <h1 class="h3 pb-md-4">Herramientas</h1>
-                <ul class="lista list-group">
-                    <li><img src="./img/icon/html5.png" alt="HTML5"> HTML5: Maquetado</li>
-                    <li><img src="./img/icon/css3.png" alt="css3"> Css3: Estilos</li>
-                    <li><img src="./img/icon/java-script.png" alt="java-script"> JavaScript: Dinamismo</li>
-                    <li><img src="./img/icon/java.png" alt="Java"> Java: Programacion orientada a objetos</li>
-                    <li><img src="./img/icon/mysql.png" alt="MySQL"> MySQL: Base de Datos</li>
-                    <li><img src="./img/icon/spring-boot.png" alt="SpringBoot"> SpringBoot: Programacion
-                        backend en
-                        java</li>
-                    <li><img src="./img/icon/bootstrap.png" alt="Booststrap5"> Booststrap 5: Preparacion del
-                        Marco
-                        de
-                        trabajo HTML, CSS y JavaScript</li>
-                    <li><img src="./img/icon/react.png" alt="React"> React: Programacion Frontend</li>
-                    <li><img src="./img/icon/github.png" alt="Github"> Github: Plataforma para trabajo colaborativo</li>
-
-                </ul>
-            </section>
-            <section>
+              <div class="col">
+                <div class="card" style="width: 20rem; margin-top: 1%; background-color: rgba(0, 0, 0, 0);">
+                    <img class="card-img-top" src="./img/foto.jpg" alt="Card image cap" style=" border: 5px solid rgb(20, 48, 63);">
+                    <div class="card-body">
+                    <p class="card-text" style="text-align: center; text-justify: auto; font-size:x-large;"> "Soy un profesional de la informática dedicado, orientado a resultados y con amplia experiencia liderando equipos de trabajo."</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                
+                <section class="listaComp">
+                    <h1 class="h3 pb-md-4"><strong><u>Estudios y Formación</u></strong></h1>
+                    <ul class="lista list-group">
+                        <li><img src="./img/icon/universidad.png" alt="HTML5"> Analista Programador, INACAP - Egresado 2023</li>
+                        <li><img src="./img/icon/cybers.png" alt="HTML5"> Cybersecurty Essentials, Cisco - 2022</li>
+                    </ul>
+                </section> 
+                <section class="listaComp">
+                    <h1 class="h3 pb-md-4"><strong><u>Herramientas</u></strong></h1>
+                    <ul class="lista list-group">
+                        <li><img src="./img/icon/html5.png" alt="HTML5"> HTML5: Maquetado</li>
+                        <li><img src="./img/icon/css3.png" alt="css3"> Css3: Estilos</li>
+                        <li><img src="./img/icon/jss.png" alt="java-script"> JavaScript: Dinamismo</li>
+                        <li><img src="./img/icon/python.png" alt="Python"> Python: Programación orientada a objetos</li>
+                        <li><img src="./img/icon/oracle.png" alt="Oracle"> Oracle: Base de datos SQL</li>
+                        <li><img src="./img/icon/mongodb.png" alt="Mongodb"> MongoDB: Base de datos NoSQL</li>
+                        <li><img src="./img/icon/bootstrap.png" alt="Booststrap5"> Bootstrap 5: Preparacion del Marco de trabajo HTML, CSS y JavaScript</li>
+                        <li><img src="./img/icon/react.png" alt="React"> React: Programación Frontend</li>
+                        <li><img src="./img/icon/github.png" alt="Github"> Github: Plataforma para trabajo colaborativo</li>
+    
+                    </ul>
+                </section>  
+                <section>
+              </div>
+            </div>
+        </div>
+            
                 
 
             </div>
@@ -104,8 +96,8 @@
 
     </main>
     <footer class="navbar navbar-expand-sm bg-dark navbar-dark text-light justify-content-center">
-        Derechos reservados &copy; <a href="mailto:rodriguezcoloma@gmail.com" target="_blank"> Francisco
-            Rodriguez Coloma</a>
+        Derechos reservados &copy;   <a href="mailto:rodriguezcoloma@gmail.com" target="_blank"> Francisco Rodriguez Coloma</a>
+            
 
 
     </footer>
